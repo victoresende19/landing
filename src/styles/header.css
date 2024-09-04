@@ -16,7 +16,7 @@ header {
 
 #nav_logo {
     color: var(--color-primary-6);
-    width: 7%;  /* Define a largura desejada */
+    width: 7rem;  /* Define a largura desejada */
     height: auto; /* Ajusta a altura automaticamente */
 }
 
