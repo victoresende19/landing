@@ -52,16 +52,17 @@
 
 #banner {
     display: flex;
-    align-items: start;
-    justify-content: end;
+    align-items: flex-start;
+    justify-content: flex-end;
     width: 70%;
     z-index: 2;
 }
 
 #banner img {
-    height: 70%;
-    width: fit-content;
+    max-height: 90%; 
+    width: auto; 
 }
+
 
 .shape {
     background-color: var(--color-primary-2);
