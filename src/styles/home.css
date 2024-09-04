@@ -52,15 +52,15 @@
 
 #banner {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
+    align-items: start;
+    justify-content: end;
     width: 70%;
     z-index: 2;
 }
 
 #banner img {
-    max-height: 90%; 
-    width: 50rem; 
+    height: 100%;
+    width: fit-content;
 }
 
 
