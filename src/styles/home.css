@@ -54,13 +54,12 @@
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
-    width: 70%;
     z-index: 2;
 }
 
 #banner img {
     max-height: 90%; 
-    width: 70%; 
+    width: 90%; 
 }
 
 
