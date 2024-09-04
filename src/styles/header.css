@@ -15,8 +15,9 @@ header {
 }
 
 #nav_logo {
-    font-size: 24px;
     color: var(--color-primary-6);
+    width: 7%;  /* Define a largura desejada */
+    height: auto; /* Ajusta a altura automaticamente */
 }
 
 #nav_list {
