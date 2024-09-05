@@ -12,17 +12,37 @@
     margin-top: 5%;
 }
 
-#cta .title {
-    font-size: 2rem;
-    color: var(--color-neutral-1);;
+@media (max-width: 768px) {
+    #cta .title {
+        font-size: 1rem;
+        color: var(--color-neutral-1);
+    }
+
+    #cta .title span {
+        font-size: 1.7rem;
+        color: var(--color-primary-6);
+    }
+
+    #cta .description {
+        font-size: 0.85rem;
+    }
 }
 
-#cta .title span {
-    color: var(--color-primary-6);
-}
+/* Estilos para desktop */
+@media (min-width: 769px) {
+    #cta .title {
+        font-size: 1.5rem;
+        color: var(--color-neutral-1);
+    }
 
-#cta .description {
-    font-size: 1.2rem;
+    #cta .title span {
+        font-size: 2rem;
+        color: var(--color-primary-6);
+    }
+
+    #cta .description {
+        font-size: 1.2rem;
+    }
 }
 
 #cta_buttons {
@@ -60,16 +80,16 @@
 
 #banner img {
     max-width: 100%;
-    height: auto; 
+    height: auto;
+    max-height: 90%;
 }
-
 
 .shape {
     background-color: var(--color-primary-2);
     width: 50%;
-    height: 100%;
+    height: 87.4%;
     position: absolute;
-    border-radius: 40% 30% 0% 20%;
+    border-radius: 40% 30% 20% 20%;
     top: 0;
     right: 0;
     z-index: 1;
